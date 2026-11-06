@@ -1,0 +1,6 @@
+flowchart TD
+ R["R1 · 2911"] ---|"802.1Q trunk G0/0 to G0/1"| S["SW1 · 2960"]
+ S --- A["Staff VLAN 10 · Fa0/1"]
+ S --- B["Guests VLAN 20 · Fa0/2"]
+ S --- C["Camera PC VLAN 30 · Fa0/3"]
+ S --- D["Admin VLAN 99 · Fa0/4"]
